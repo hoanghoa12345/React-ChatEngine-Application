@@ -1,6 +1,16 @@
-# Getting Started with Create React App
+# Chat Application With React and Chat Engine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<img src="public/sample.png" alt="sample">
+
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app) and [chatengine.io](https://github.com/chatengine-io/react-chat-engine).
+## Config environment variable
+Open file env.local
+Replace with your config:
+```
+REACT_APP_LOGIN_URL=https://api.chatengine.io/chats
+REACT_APP_PROJECT_ID=<Your App Project ID>
+```
+You can register free account at [ChatEngine.io](https://chatengine.io/) and create new user to login to chat feed.
 
 ## Available Scripts
 
